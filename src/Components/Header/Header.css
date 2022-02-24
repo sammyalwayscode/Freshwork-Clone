@@ -1,0 +1,51 @@
+.MainHeader {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderHold {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo img {
+  width: 120px;
+}
+
+.Nav {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navigation {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navigation span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.BuggerDiv {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .Nav {
+    display: none;
+  }
+
+  .BuggerDiv {
+    display: block;
+  }
+}

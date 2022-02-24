@@ -1,0 +1,89 @@
+.HeroMain {
+  height: 75vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #e9e0f5, #8566b1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.SubHeromain {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.TextDiv {
+  width: 400px;
+}
+
+.BigText {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.HeroBtnHold {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Btn1 {
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: poppins;
+}
+
+.Btn2 {
+  height: 40px;
+  width: 150px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: black;
+  font-family: poppins;
+  border: 1px solid black;
+}
+
+.ImageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ImageDiv img {
+  width: 450px;
+}
+
+@media screen and (max-width: 500px) {
+  .ImageDiv img {
+    width: 300px;
+  }
+
+  .HeroBtnHold {
+    width: 300px;
+  }
+
+  .TextDiv {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .HeroMain {
+    height: 100%;
+  }
+
+  .SubHeromain {
+    justify-content: center;
+  }
+}
