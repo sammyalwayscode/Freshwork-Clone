@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
 }
 .HeaderHold {
   height: 100%;
@@ -48,4 +50,12 @@
   .BuggerDiv {
     display: block;
   }
+}
+
+.Test {
+  color: #fff;
+  display: none;
+}
+.Test:hover {
+  display: block;
 }

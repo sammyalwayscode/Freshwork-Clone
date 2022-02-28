@@ -1,0 +1,28 @@
+.p2BtnMain {
+  height: 75px;
+  width: 300px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px 10px 10px 0;
+}
+
+.p2BtnHold {
+  width: 270px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btnIcon {
+  height: 100%;
+  display: flex;
+}

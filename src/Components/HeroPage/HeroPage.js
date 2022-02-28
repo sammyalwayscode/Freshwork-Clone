@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroPage.css";
 import HreoImg from "../Image/hrimg.png";
+import Page2p from "../Page2/Page2Props/Page2p";
 
 const HeroPage = () => {
   return (
